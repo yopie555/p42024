@@ -71,6 +71,88 @@ const HomeScreen = () => {
           <Text style={styles.sinopsisText}>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster2}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster3}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster4}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster5}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster6}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
+        </View>
+        <View style={styles.movieCard}>
+          <Image 
+          source={poster7}
+          style={styles.posterImage}
+          />
+          <Text style={styles.sinopsisText}>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </Text>
+          <View style={styles.container3}>
+            <Text>Rating : 8.5</Text>
+            <Text>Genre : Sport</Text>
+          </View>
         </View>
       </ScrollView>
     </View>
@@ -105,6 +187,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginVertical: 15,
+    marginHorizontal: 5
   },
   categoryText:{
     color: '#000',
@@ -131,6 +214,14 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginTop: 5,
     textAlign: 'justify'
+  },
+  container3:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '90%',
+    marginHorizontal: 10,
+    borderTopWidth: 1,
+    borderColor: 'lightgray',
   }
 })
 
