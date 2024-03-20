@@ -265,7 +265,7 @@ const HomeScreen = () => {
               <TouchableOpacity 
               style={styles.movieCard}
               index={index}
-              onPress={() => navigation.navigate('DetailScreen')}
+              onPress={() => navigation.navigate('DetailScreen', { item: item })}
               >
                 <Image
                   source={item.poster}
